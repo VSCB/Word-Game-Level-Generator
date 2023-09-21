@@ -49,7 +49,7 @@ def generate_word_list():
 
 def main():
     data = []
-    for _ in range(2000):
+    for _ in range(2000): #You can change the iteartion count (it determines your word list's volume)
         row = generate_word_list()
         if row:
             data.append(row)
